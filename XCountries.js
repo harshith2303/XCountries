@@ -8,6 +8,7 @@ FETCH.then((rawData) => {
   console.error("Error fetching data: "+err);
 });
 
+
 function xCountries(data) {
   const pele = document.querySelector(".second");
 
